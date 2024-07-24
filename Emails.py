@@ -55,7 +55,7 @@ class MainFrame(wx.Frame):
 
         # Add text controls for email configuration
         self.email_sender = wx.TextCtrl(self.panel, value="xbewex@gmail.com")
-        self.email_password = wx.TextCtrl(self.panel, value="pwjn ntfj iqbs scpu", style=wx.TE_PASSWORD)
+        self.email_password = wx.TextCtrl(self.panel, value="password", style=wx.TE_PASSWORD)
         self.email_recipient = wx.TextCtrl(self.panel, value="dominikpagowski@gmail.com")
         
         control_sizer.Add(wx.StaticText(self.panel, label="Sender Email: "), 0, wx.ALL, 5)
